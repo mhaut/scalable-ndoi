@@ -11,12 +11,11 @@ import java.io.FileWriter;
 public class cloud {
     public static void main(String[] args) {
 
-        String path = "";
-        String imageName = "AVIRIS_1.csv";
+        String path = args[0];
+        String dest = args[1];
 
         // Read csv as String
-        System.out.println(path+imageName);
-        List<String[]> rowList = readFile(path + imageName);
+        List<String[]> rowList = readFile(path);
         
         // Transform str to int matrix
         int[][] matrix = transformStr2Int(rowList);
@@ -37,7 +36,7 @@ public class cloud {
         
         // Save data
         try{
-            FileWriter writer = new FileWriter(path + "indices.csv");
+            FileWriter writer = new FileWriter(dest);
                 for (int j = 0; j < n; j++) {
                     writer.append(Float.toString(ndvi_value[j]));
                     writer.append(";");

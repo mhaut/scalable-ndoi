@@ -47,7 +47,7 @@ public class cloud extends EvalFunc<String>{
             double waf_value = indexes.getWaf();
 
             
-            a = Double.toString(ndvi_value) + " " + Double.toString(ndoi_value) + " " + Double.toString(fi_value) + " " + Double.toString(hi_value) + " " + Double.toString(osi_value) + " " + Double.toString(cdom_value) + " " + Double.toString(s211_value) + " " + Double.toString(ndwi_value) + " " + Double.toString(waf_value) + "\n";
+            a = Double.toString(ndvi_value) + " " + Double.toString(ndoi_value) + " " + Double.toString(fi_value) + " " + Double.toString(hi_value) + " " + Double.toString(osi_value) + " " + Double.toString(cdom_value) + " " + Double.toString(s211_value) + " " + Double.toString(ndwi_value) + " " + Double.toString(waf_value);
             
             return a;
             
