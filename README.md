@@ -33,7 +33,6 @@ mvn clean compile package
 ```
 #!/bin/bash
 java  -Xms14096m -Xms14096m -Xmx15144m -jar archivo.jar
-
 ```
 ## Distributed version
 First, you need to upload the compiled file, the Pig script, and the data to Amazon S3. Once this is done and you have confirmed that the paths match in both the Pig script and the execution script. Finally, execute the following code:
