@@ -1,8 +1,8 @@
-# Cloud Implementation of Extreme Learning Machine for Hyperspectral Image Classification
-The Code for "Cloud Implementation of Extreme Learning Machine for Hyperspectral Image Classification". [https://ieeexplore.ieee.org/document/10189386]
+# Cloud-Based Analysis of Large-Scale Hyperspectral Imagery for Oil Spill Detection
+The Code for "Cloud-Based Analysis of Large-Scale Hyperspectral Imagery for Oil Spill Detection". []
 ```
 J. M. Haut, S. Moreno-Álvarez, R. Pastor-Vargas, A. Perez-Garcia and M. E. Paoletti
-Cloud Implementation of Extreme Learning Machine for Hyperspectral Image Classification.
+Cloud-Based Analysis of Large-Scale Hyperspectral Imagery for Oil Spill Detection.
 DOI: ,
 October 2023.
 ```
